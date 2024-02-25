@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+.container_div {
+    width: 1166px;
+    margin: 0 auto;
+}
+
+/* =============== */
+#part_one {
+    padding: 50px 0 120px;
+}
+
+#temukan_part .text_prt h1 {
+    width: 777px;
+    color: #203239;
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 165px;
+}
+
+#temukan_part .text_prt p {
+    width: 544px;
+    color: rgba(32, 50, 57, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    /* 187.5% */
+
+}
+
+#temukan_part .text_prt .location_input {
+    display: inline-flex;
+    height: 70px;
+    padding: 23px 101px 23px 20px;
+    align-items: center;
+    flex-shrink: 0;
+    background: #FFF;
+
+}
+
+#temukan_part .text_prt .search_input {
+    color: rgba(32, 50, 57, 0.55);
+
+    /* Text1 Light */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    border-radius: 15px;
+    background: #FFF;
+    width: 138px;
+    height: 70px;
+}
+
+#temukan_part .img_part {
+    width: 373px;
+    height: 522px;
+    flex-shrink: 0;
+    margin-top: 96px;
+}
+
+/* <!-- Tahapan_part start ========================================================= --> */
+
+#tahapan_part {
+    padding: 100px 0;
+    background-color: aqua;
+}
+
+#thanapan_part h2 {
+    color: #203239;
+    width: 533px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    /* 54px */
+}
+
+#thanapan_part .pilih_info{
+    border-radius: 10px;
+    border: 1px solid #EEEDDE;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+/* <!-- Tahapan_part end ========================================================= --> */

@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.player_count{
+    width: 500px;
+    height: 500px;
+    /* border: 2px solid goldenrod; */
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+input ,button{
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.input_fild{
+    position: relative;
+}
+.input_fild input{
+ width: 100%;
+}
+.input_fild .error{
+ position: absolute;
+ left: 0;
+ top: 101%;
+ font-size: 15px;
+ color: rgb(206, 30, 30);
+}
+
+
+.player_one{
+    background-color: rgb(235, 241, 241);
+}
+.player_tow{
+    background-color: rgb(43, 7, 7);
+    display: none;
+}
+.player_three{
+    background-color: rgb(23, 23, 23);
+    display: none;
+}
+.player_four{
+  background-color: rgb(50, 50, 109);  
+  display: none;
+}
+.player_five{
+    background-color: rgb(241, 181, 69);
+    display: none;
+}

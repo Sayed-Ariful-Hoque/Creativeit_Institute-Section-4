@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1, h2 , h3, h4, h5, h6, p, span{
+    padding: 0;
+    margin: 0;
+} 
+.bmi_claculator{
+    text-align: center;
+    margin: 100px 0 50px;
+}
+.bmi_claculator span{
+    background-color: green;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.weighterror, .highterror{
+    color: red;
+}
+.bmi {
+    width: 500px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+.inpu01{
+    position: relative;
+}
+.inpu01 .weighterror{
+    position: absolute;
+}
+.inpu02{
+    position: relative;
+}
+.inpu01 .highterror{
+    position: absolute;
+}
+.bmi input {
+    width: 300px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.bmi button {
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bmi button:hover {
+    background-color: green;
+    border: none;
+    transition: .5s;
+}
+.under_weight{
+    color: rgb(205, 205, 105);
+    box-shadow: 3px 3px 3px 3px;
+    padding: 5px 10px;
+}
+.helthy_wight{
+    color: green;
+    box-shadow: 3px 3px 3px 3px;
+    padding: 5px 10px;
+}
+.over_weight{
+    color: brown;
+    box-shadow: 3px 3px 3px 3px;
+    padding: 5px 10px;
+}
+.obesity{
+    color: red;
+    box-shadow: 3px 3px 3px 3px;
+    padding: 5px 10px;
+
+}
+
+.over_weightp{
+    color: cornflowerblue;
+    box-shadow: 5px 5px 5px 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
